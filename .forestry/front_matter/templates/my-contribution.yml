@@ -1,4 +1,24 @@
 ---
 label: My contribution
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: id
+  type: text
+  config:
+    required: false
+  label: id
+- name: tant_percent
+  type: number
+  label: tant percent
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
