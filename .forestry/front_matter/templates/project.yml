@@ -52,6 +52,15 @@ fields:
     label: id
   label: prova
   description: Aixo es una prova de si es un array
+- name: prova3
+  type: blocks
+  label: prova3
+  template_types:
+  - project
+  - theme-configuration
+  config:
+    min: 
+    max: 
 pages:
 - projects/3d-graff.md
 - projects/chelsea-landmark.md
