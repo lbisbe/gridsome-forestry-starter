@@ -35,32 +35,22 @@ fields:
   config:
     color_format: Hex
   label: Foreground color
-- name: prova
-  type: field_group
-  config: {}
-  fields:
-  - name: title
-    type: text
-    config:
-      required: false
-    label: Title
-    description: titol dins del objecte
-  - name: id
-    type: text
-    config:
-      required: false
-    label: id
-  label: prova
-  description: Aixo es una prova de si es un array
-- name: prova3
+- name: weblink
   type: blocks
-  label: prova3
+  label: weblink
   template_types:
-  - project
-  - theme-configuration
+  - enllac-web
   config:
     min: 
     max: 
+- name: videos
+  type: blocks
+  template_types:
+  - videos
+  config:
+    min: 
+    max: 
+  label: videos
 pages:
 - projects/3d-graff.md
 - projects/chelsea-landmark.md
