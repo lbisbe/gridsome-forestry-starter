@@ -1,4 +1,19 @@
 ---
 label: Sofwares
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: sofware_image
+  type: file
+  config:
+    maxSize: 64
+  label: sofware image
+- name: id
+  type: text
+  config:
+    required: false
+  label: id
