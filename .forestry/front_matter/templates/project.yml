@@ -35,6 +35,23 @@ fields:
   config:
     color_format: Hex
   label: Foreground color
+- name: prova
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+    description: titol dins del objecte
+  - name: id
+    type: text
+    config:
+      required: false
+    label: id
+  label: prova
+  description: Aixo es una prova de si es un array
 pages:
 - projects/3d-graff.md
 - projects/chelsea-landmark.md
