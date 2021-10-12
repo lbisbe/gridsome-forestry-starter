@@ -1,4 +1,19 @@
 ---
 label: Enllaç web
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: link
+  type: text
+  config:
+    required: false
+  label: link
+- name: id
+  type: text
+  config:
+    required: false
+  label: id
