@@ -17,14 +17,11 @@ section:
   visualization: video
   enllasos: []
   galeria: []
-  video:
-  - template: videos
-    title: Bible
-    id: link_bible_asteria
-    link: ''
+  video: https://youtu.be/JVlUoJQbirg
   single-img: ''
   slider: []
   localizacio: final-resoult
+  link: false
 - template: seccio-projecte
   title: Teasers
   id: asteria_teaser
@@ -39,6 +36,7 @@ section:
   single-img: ''
   slider: []
   localizacio: final-resoult
+  link: false
 - template: seccio-projecte
   title: The installation
   id: installation_video
@@ -53,6 +51,7 @@ section:
   single-img: ''
   slider: []
   localizacio: final-resoult
+  link: false
 - template: seccio-projecte
   visualization: gallery
   enllasos: []
@@ -73,5 +72,6 @@ section:
   localizacio: final-resoult
   title: Posters
   id: posters
+  link: false
 
 ---
