@@ -24,6 +24,7 @@ section:
     link: ''
   single-img: ''
   slider: []
+  localizacio: final-resoult
 - template: seccio-projecte
   title: Teasers
   id: asteria_teaser
@@ -37,6 +38,7 @@ section:
   galeria: []
   single-img: ''
   slider: []
+  localizacio: final-resoult
 - template: seccio-projecte
   title: The installation
   id: installation_video
@@ -50,5 +52,26 @@ section:
   galeria: []
   single-img: ''
   slider: []
+  localizacio: final-resoult
+- template: seccio-projecte
+  visualization: gallery
+  enllasos: []
+  galeria:
+  - "/uploads/1-1.jpg"
+  - "/uploads/2-1.jpg"
+  - "/uploads/3.jpg"
+  - "/uploads/4.jpg"
+  - "/uploads/5.jpg"
+  - "/uploads/6.jpg"
+  - "/uploads/7.jpg"
+  - "/uploads/8.jpg"
+  - "/uploads/9.jpg"
+  - "/uploads/10.png"
+  video: []
+  single-img: ''
+  slider: []
+  localizacio: final-resoult
+  title: Posters
+  id: posters
 
 ---
