@@ -37,5 +37,18 @@ section:
   galeria: []
   single-img: ''
   slider: []
+- template: seccio-projecte
+  title: The installation
+  id: installation_video
+  visualization: video
+  video:
+  - template: videos
+    title: Installation
+    id: asteria_installation_video_link
+    link: ''
+  enllasos: []
+  galeria: []
+  single-img: ''
+  slider: []
 
 ---
