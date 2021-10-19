@@ -71,3 +71,18 @@ fields:
   showOnly:
     field: visualization
     value: slider
+- name: localizacio
+  type: select
+  default: final-resoult
+  config:
+    required: true
+    options:
+    - final-resoult
+    - process
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: localizacio
+  description: a quina part del projecte anira
