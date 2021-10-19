@@ -22,6 +22,7 @@ fields:
     - single-image
     - slider
     - gallery
+    - video
     source:
       type: simple
       section: 
@@ -50,8 +51,11 @@ fields:
   template_types:
   - videos
   config:
-    min: 
+    min: 0
     max: 
+  showOnly:
+    field: visualization
+    value: video
 - name: single-img
   type: file
   config:
