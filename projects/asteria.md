@@ -14,10 +14,14 @@ section:
 - template: seccio-projecte
   title: Bible
   id: bible_asteria
-  visualization: ''
+  visualization: video
   enllasos: []
   galeria: []
-  video: []
+  video:
+  - template: videos
+    title: Bible
+    id: link_bible_asteria
+    link: ''
   single-img: ''
   slider: []
 
