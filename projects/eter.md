@@ -12,14 +12,29 @@ section:
   title: Installation
   id: video_installation_eter
   visualization: video
-  video:
-  - template: videos
-    title: video instalacio
-    id: video_eter
-    link: https://youtu.be/JVlUoJQbirg
+  video: "[object Object]"
   enllasos: []
   galeria: []
   single-img: ''
   slider: []
+  localizacio: final-resoult
+  link: false
+  link-web: ''
+- template: seccio-projecte
+  localizacio: process
+  title: img_gallery
+  id: img_eter_gallery
+  visualization: gallery
+  galeria:
+  - "/uploads/13.jpg"
+  - "/uploads/12.jpg"
+  - "/uploads/11.jpg"
+  - "/uploads/10.jpg"
+  - "/uploads/9-1.jpg"
+  link: false
+  link-web: ''
+  single-img: ''
+  slider: []
+  video: ''
 
 ---
