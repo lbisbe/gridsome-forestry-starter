@@ -11,7 +11,7 @@ section:
 - template: seccio-projecte
   title: Installation
   id: video_installation_eter
-  visualization: single-image
+  visualization: video
   video:
   - template: videos
     title: video instalacio
