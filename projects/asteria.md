@@ -22,6 +22,7 @@ section:
   slider: []
   localizacio: final-resoult
   link: false
+  link-web: ''
 - template: seccio-projecte
   title: Teasers
   id: asteria_teaser
@@ -33,6 +34,7 @@ section:
   slider: []
   localizacio: final-resoult
   link: false
+  link-web: ''
 - template: seccio-projecte
   title: The installation
   id: installation_video
@@ -44,6 +46,7 @@ section:
   slider: []
   localizacio: final-resoult
   link: false
+  link-web: ''
 - template: seccio-projecte
   visualization: gallery
   enllasos: []
@@ -65,6 +68,7 @@ section:
   title: Posters
   id: posters
   link: false
+  link-web: ''
 - template: seccio-projecte
   localizacio: final-resoult
   title: Catalog
@@ -76,16 +80,18 @@ section:
   single-img: ''
   slider: []
   video: catalog pdf link
+  link-web: ''
 - template: seccio-projecte
   localizacio: final-resoult
   title: Web
   id: web
   link: true
-  visualization: ''
+  visualization: single-image
   enllasos: []
   galeria: []
   single-img: ''
   slider: []
   video: ''
+  link-web: ''
 
 ---
