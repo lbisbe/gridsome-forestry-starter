@@ -69,12 +69,12 @@ section:
   localizacio: final-resoult
   title: Catalog
   id: catalog
-  visualization: ''
+  visualization: video
   link: false
   enllasos: []
   galeria: []
   single-img: ''
   slider: []
-  video: ''
+  video: catalog pdf link
 
 ---
