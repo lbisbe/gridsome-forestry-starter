@@ -1,4 +1,30 @@
 ---
 label: Secció projecte
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+  description: Title of the section
+- name: id
+  type: text
+  config:
+    required: false
+  label: id
+- name: visualization
+  type: select
+  default: 'no'
+  config:
+    required: false
+    options:
+    - single-image
+    - slider
+    - gallery
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: visualization
