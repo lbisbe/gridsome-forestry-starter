@@ -76,5 +76,16 @@ section:
   single-img: ''
   slider: []
   video: catalog pdf link
+- template: seccio-projecte
+  localizacio: final-resoult
+  title: Web
+  id: web
+  link: true
+  visualization: ''
+  enllasos: []
+  galeria: []
+  single-img: ''
+  slider: []
+  video: ''
 
 ---
