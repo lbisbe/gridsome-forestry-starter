@@ -65,5 +65,16 @@ section:
   title: Posters
   id: posters
   link: false
+- template: seccio-projecte
+  localizacio: final-resoult
+  title: Catalog
+  id: catalog
+  visualization: ''
+  link: false
+  enllasos: []
+  galeria: []
+  single-img: ''
+  slider: []
+  video: ''
 
 ---
