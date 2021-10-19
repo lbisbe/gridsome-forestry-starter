@@ -60,6 +60,14 @@ fields:
       min: 
       max: 
   label: videos
+- name: section
+  type: blocks
+  label: section
+  template_types:
+  - seccio-projecte
+  config:
+    min: 
+    max: 
 pages:
 - projects/3d-graff.md
 - projects/asteria.md
