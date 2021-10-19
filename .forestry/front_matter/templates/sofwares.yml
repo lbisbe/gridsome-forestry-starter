@@ -14,11 +14,6 @@ fields:
     min: 
     max: 
   label: sofwares
-- name: id
-  type: text
-  config:
-    required: false
-  label: id
 - name: programs
   type: list
   config:
@@ -26,3 +21,8 @@ fields:
     min: 
     max: 
   label: programs
+- name: id
+  type: text
+  config:
+    required: false
+  label: id
