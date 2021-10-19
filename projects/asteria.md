@@ -24,5 +24,18 @@ section:
     link: ''
   single-img: ''
   slider: []
+- template: seccio-projecte
+  title: Teasers
+  id: asteria_teaser
+  visualization: video
+  video:
+  - template: videos
+    title: Teasers Asteria
+    id: teasers_asteria_link
+    link: ''
+  enllasos: []
+  galeria: []
+  single-img: ''
+  slider: []
 
 ---
