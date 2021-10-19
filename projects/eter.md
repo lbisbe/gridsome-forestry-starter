@@ -4,8 +4,8 @@ thumbnail: "/uploads/2.jpg"
 title: Éter
 categories:
 - interactive design
-project_bg_color: "#7B63CB"
-project_fg_color: ''
+project_bg_color: "#fff"
+project_fg_color: '#7B63CB'
 weblink: []
 section:
 - template: seccio-projecte
