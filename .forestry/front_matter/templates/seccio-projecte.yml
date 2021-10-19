@@ -28,3 +28,42 @@ fields:
       file: 
       path: 
   label: visualization
+- name: enllasos
+  type: blocks
+  label: enllasos
+  template_types:
+  - enllac-web
+  - videos
+  config:
+    min: 
+    max: 
+- name: galeria
+  type: image_gallery
+  config: {}
+  label: galeria
+  showOnly:
+    field: visualization
+    value: gallery
+- name: video
+  type: blocks
+  label: video
+  template_types:
+  - videos
+  config:
+    min: 
+    max: 
+- name: single-img
+  type: file
+  config:
+    maxSize: 64
+  label: single-img
+  showOnly:
+    field: visualization
+    value: single-image
+- name: slider
+  type: image_gallery
+  config: {}
+  label: slider
+  showOnly:
+    field: visualization
+    value: slider
