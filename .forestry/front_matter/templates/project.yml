@@ -43,23 +43,6 @@ fields:
   config:
     min: 
     max: 
-- name: videos
-  type: field_group
-  config: {}
-  fields:
-  - name: title
-    type: text
-    config:
-      required: false
-    label: Title
-  - name: video
-    type: blocks
-    label: video
-    template_types: []
-    config:
-      min: 
-      max: 
-  label: videos
 - name: section
   type: blocks
   label: section
