@@ -48,15 +48,11 @@ fields:
   type: boolean
   label: link
   description: marca si hi ha un enllaç
-- name: enllasos
-  type: blocks
-  label: enllasos
-  template_types:
-  - enllac-web
-  - videos
+- name: link-web
+  type: text
   config:
-    min: 
-    max: 
+    required: false
+  label: link-web
   showOnly:
     field: link
     value: true
