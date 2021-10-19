@@ -37,11 +37,7 @@ section:
   title: The installation
   id: installation_video
   visualization: video
-  video:
-  - template: videos
-    title: Installation
-    id: asteria_installation_video_link
-    link: ''
+  video: https://youtu.be/JVlUoJQbirg
   enllasos: []
   galeria: []
   single-img: ''
