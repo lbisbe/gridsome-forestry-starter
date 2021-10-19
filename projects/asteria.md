@@ -26,11 +26,7 @@ section:
   title: Teasers
   id: asteria_teaser
   visualization: video
-  video:
-  - template: videos
-    title: Teasers Asteria
-    id: teasers_asteria_link
-    link: ''
+  video: https://youtu.be/JVlUoJQbirg
   enllasos: []
   galeria: []
   single-img: ''
