@@ -7,6 +7,7 @@
         <div class="project-header">
           <h1 class="project-title" v-html="$page.post.title" />
           <div class="project-info">
+<a :href="$page.post.section"  v-html="$page.post.section" ></a>
 
             <div class="categories-container">
               <div class="categories">
@@ -44,6 +45,11 @@ query ProjectPost ($path: String!) {
     categories
     project_bg_color
     project_fg_color
+    section {
+      template {
+        title
+      }
+    }
   }
 }
 </page-query>
