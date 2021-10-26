@@ -5,13 +5,13 @@ title: Éter
 categories:
 - interactive design
 project_bg_color: "#fff"
-project_fg_color: '#7B63CB'
+project_fg_color: "#7B63CB"
 weblink: []
 section:
 - template: seccio-projecte
   title: Installation
   id: video_installation_eter
-  visualization: video
+  visualization: gallery
   video: "[object Object]"
   enllasos: []
   galeria: []
@@ -36,5 +36,11 @@ section:
   single-img: ''
   slider: []
   video: ''
+description: Èter is an interactive installation created for Girona light festival,
+  VIBRA. We did that project in the context of the MMClub (the multimedia club of
+  the Eram University school). When the night falls and the lights illuminate Girona,
+  open your eyes well, and the magic that will make you vibrate with water, earth,
+  and technology will appear.
+main_initial_video: ''
 
 ---
