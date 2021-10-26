@@ -11,8 +11,8 @@ section:
 - template: seccio-projecte
   title: Installation
   id: video_installation_eter
-  visualization: gallery
-  video: "[object Object]"
+  visualization: video
+  video: https://youtu.be/JVlUoJQbirg
   enllasos: []
   galeria:
   - "/uploads/11.jpg"
@@ -22,7 +22,7 @@ section:
   - "/uploads/12.jpg"
   single-img: ''
   slider: []
-  localizacio: process
+  localizacio: final-resoult
   link: false
   link-web: ''
 - template: seccio-projecte
