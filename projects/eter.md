@@ -14,10 +14,15 @@ section:
   visualization: gallery
   video: "[object Object]"
   enllasos: []
-  galeria: []
+  galeria:
+  - "/uploads/11.jpg"
+  - "/uploads/10.jpg"
+  - "/uploads/13.jpg"
+  - "/uploads/9-1.jpg"
+  - "/uploads/12.jpg"
   single-img: ''
   slider: []
-  localizacio: final-resoult
+  localizacio: process
   link: false
   link-web: ''
 - template: seccio-projecte
