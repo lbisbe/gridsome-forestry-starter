@@ -57,6 +57,14 @@ fields:
   config:
     min: 
     max: 
+- name: subseccio_projecte
+  type: blocks
+  template_types:
+  - seccio-projecte
+  config:
+    min: 
+    max: 
+  label: Subseccio projecte
 - name: section
   type: blocks
   label: section
