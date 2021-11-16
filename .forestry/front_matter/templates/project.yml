@@ -57,6 +57,14 @@ fields:
   config:
     min: 
     max: 
+- name: subseccio_projecte
+  type: blocks
+  template_types:
+  - seccio-projecte
+  config:
+    min: 
+    max: 
+  label: Subseccio projecte
 - name: section
   type: blocks
   label: section
@@ -66,9 +74,4 @@ fields:
     min: 
     max: 
 pages:
-- projects/3d-graff.md
-- projects/asteria.md
-- projects/chelsea-landmark.md
 - projects/eter.md
-- projects/ios-concept.md
-- projects/sunk.md
