@@ -47,6 +47,6 @@ section:
     slider: []
     video: ''
     
-main_initial_video: ''
+main_initial_video: 'https://youtu.be/JVlUoJQbirg'
 
 ---
