@@ -13,7 +13,7 @@ description: Èter is an interactive installation created for Girona light festi
   and technology will appear.
 weblink: []
 section:
-- template: section
+- template:
     title: Installation
     id: video_installation_eter
     visualization: video
@@ -30,7 +30,7 @@ section:
     localizacio: final-resoult
     link: false
     link-web: ''
-- template: section
+- template:
     localizacio: process
     title: img_gallery
     id: img_eter_gallery
@@ -48,7 +48,7 @@ section:
     video: ''
 main_initial_video: https://player.vimeo.com/video/657415681?h=5197d98ebe&amp;muted=1&amp;quality=720p&amp;autoplay=1&amp;loop=1&amp;api=1&amp;background=1
 subseccio_projecte:
-- template: 
+- template: seccio-projecte
   localizacio: final-resoult
   title: The installation
   id: installation
@@ -59,7 +59,7 @@ subseccio_projecte:
   galeria: []
   single-img: ''
   slider: []
-- template: 
+- template: seccio-projecte
   localizacio: final-resoult
   title: Gallery
   id: gallery-eter
