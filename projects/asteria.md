@@ -11,7 +11,7 @@ description: "Asteria is a transmedia project about a future where genetic modif
 main_initial_video: https://player.vimeo.com/video/657408723?h=a3d69949d9&amp;muted=1&amp;quality=720p&amp;autoplay=1&amp;loop=1&amp;api=1&amp;background=1
 categories:
 - Transmedia
-project_bg_color: "#7EBCD3"
+project_bg_color: "rgba(125, 187, 210, 0.6)"
 project_fg_color: "#7EBCD3"
 weblink: []
 subseccio_projecte: []

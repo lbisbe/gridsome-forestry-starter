@@ -13,7 +13,17 @@
 </div>
         </div>
         </div>
-        <div class="section">Second section ...</div>
+        <div class="section">
+
+<div class="nav-fullpage" v-for="(section, index) in $page.post.section" :key="index">
+
+<div v-if="section.template.localizacio == final-resoult">
+      <p class="project-title" v-if="section.template.video" v-html="section.template.video"></p>
+
+</div>
+
+        </div>
+        </div>
       </full-page>
     </ClientOnly>
     <div class="project">

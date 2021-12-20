@@ -48,7 +48,7 @@ section:
     video: ''
 main_initial_video: https://player.vimeo.com/video/657415681?h=5197d98ebe&amp;muted=1&amp;quality=720p&amp;autoplay=1&amp;loop=1&amp;api=1&amp;background=1
 subseccio_projecte:
-- template: seccio-projecte
+- template: Video Instalacio
   localizacio: final-resoult
   title: The installation
   id: installation
@@ -59,7 +59,7 @@ subseccio_projecte:
   galeria: []
   single-img: ''
   slider: []
-- template: seccio-projecte
+- template: Galeria Instalacio
   localizacio: final-resoult
   title: Gallery
   id: gallery-eter
