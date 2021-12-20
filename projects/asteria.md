@@ -1,6 +1,6 @@
 ---
 date: 2021-12-20
-thumbnail: ''
+thumbnail: "/uploads/1.jpg"
 title: Asteria
 description: "Asteria is a transmedia project about a future where genetic modification
   is possible. \n\nThe main idea is to create an interactive installation in which
