@@ -13,7 +13,23 @@
 </div>
         </div>
         </div>
-        <div class="section">Second section ...</div>
+        <div class="section">
+
+<div class="nav-fullpage" v-for="(section, index) in $page.post.section" :key="index">
+
+<div v-if="section.template.localizacio === 'final-resoult'">
+<h3>Final resoult</h3>
+      <!-- <p class="project-title" v-if="section.template.title" v-html="section.template.title"></p> -->
+<div class="amagat" :style="MainTitle"></div>
+
+<div v-if-else="section.template.localizacio === 'process'">
+<h3>Process</h3>
+      <!-- <p class="project-title" v-if="section.template.title" v-html="section.template.title"></p> -->
+<div class="amagat" :style="MainTitle"></div>
+</div>
+</div>
+        </div>
+        </div>
       </full-page>
     </ClientOnly>
     <div class="project">
@@ -80,8 +96,10 @@ query ProjectPost ($path: String!) {
         title
         galeria
         video
+        localizacio
       }
     }
+  
   }
 }
 </page-query>
@@ -119,7 +137,7 @@ computed: {
     }
   },
    beforeMount(){
-             console.log(this.$page.post.section[0].template.video);
+             console.log(this.$page.post.section[1].template.localizacio);
              console.log('Video'+ this.$page.post.project_fg_color);
 
    }
@@ -194,5 +212,10 @@ width: 40vw;
   font-size: 10pt;
   padding: 0px;
   margin: 20px;
+}
+.nav-fullpage .amagat{
+  height: 3px;
+  width: 30px;
+  background-color: var(--bg-color);
 }
 </style>

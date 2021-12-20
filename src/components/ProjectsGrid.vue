@@ -66,6 +66,7 @@ export default {
   box-shadow: 0 20px 40px -20px rgba(0,0,0,0.25);
 }
 
+
 @media (min-width: 920px) {
   .project {
     grid-column: auto / span 1;
