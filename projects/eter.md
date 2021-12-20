@@ -59,5 +59,24 @@ subseccio_projecte:
   galeria: []
   single-img: ''
   slider: []
+- template: seccio-projecte
+  localizacio: final-resoult
+  title: Gallery
+  id: gallery-eter
+  visualization: gallery
+  galeria:
+  - "/uploads/8-1.jpg"
+  - "/uploads/7-1.jpg"
+  - "/uploads/6-1.jpg"
+  - "/uploads/5-1.jpg"
+  - "/uploads/4-1.jpg"
+  - "/uploads/3-1.jpg"
+  - "/uploads/2-2.jpg"
+  - "/uploads/1-2.jpg"
+  link: false
+  link-web: ''
+  single-img: ''
+  slider: []
+  video: ''
 
 ---
