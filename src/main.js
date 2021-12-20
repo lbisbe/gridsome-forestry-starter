@@ -2,6 +2,12 @@ import DefaultLayout from "~/layouts/Default.vue";
 import settings from "../data/theme.json";
 import Vue from 'vue';
 import VueFullPage from "vue-fullpage.js";
+import VueYouTubeEmbed from 'vue-youtube-embed'
+Vue.use(VueYouTubeEmbed)
+
+import vueVimeoPlayer from 'vue-vimeo-player'
+Vue.use(vueVimeoPlayer)
+
 import "@/assets/code-highlight.css"
 Vue.use(VueFullPage);
 export default function(Vue, { head, isClient }) {

@@ -2,19 +2,24 @@
   <Layout>
    <ClientOnly>
       <full-page ref="fullpage" :options="options" id="fullpage">
-        <div class="info-projecte">First section ...</div>
+        <div class="section">
+        <div style=" width: 100vw; height:100vh; z-index: 10"></div>
+       <div> 
+<iframe  class="start-video" :src="$page.post.main_initial_video" width="640" height="564" frameborder="0" allow="autoplay; fullscreen; muted" ></iframe>
+<div class="recuadre-info-projecte" :style="MainTitle">
+  <h1>{{$page.post.title}}.</h1>
+                <p class="project-description" v-html="$page.post.description" />
+
+</div>
+        </div>
+        </div>
         <div class="section">Second section ...</div>
       </full-page>
     </ClientOnly>
     <div class="project">
 
       <div class="container">
- <!-- <ClientOnly>
-      <full-page ref="fullpage" :options="options" id="fullpage">
-        <div class="section">First section ...</div>
-        <div class="section">Second section ...</div>
-      </full-page>
-    </ClientOnly> -->
+
         <div class="project-header">
           <h1 class="project-title" v-html="$page.post.title" />
               <p class="project-description" v-html="$page.post.description" />
@@ -67,6 +72,7 @@ query ProjectPost ($path: String!) {
     content
     categories
     project_bg_color
+    main_initial_video
     project_fg_color
     description
     section {
@@ -83,11 +89,14 @@ query ProjectPost ($path: String!) {
 <script>
 
 
-//import 'fullpage.js/vendors/scrolloverflow' // Optional. When using scrollOverflow:true
-//import './fullpage.scrollHorizontally.min' // Optional. When using fullpage extensions
-// import VueFullPage from 'vue-fullpage.js'
-// Vue.use(VueFullPage);
 export default  {
+computed: {
+    MainTitle() {
+      return {
+        '--bg-color': this.$page.post.project_bg_color,
+      }
+    }
+  },
    ready () {
     $(document).ready(function ($) {
 	$('#fullpage').fullpage({
@@ -96,26 +105,32 @@ export default  {
 		scrollHorizontally: true
 	});    })
   },
+  
   metaInfo () {
     return {
        options: {
-        navigation: true,       
+        navigation: true,
+       
       },
       title: this.$page.post.title,
       bodyAttrs: {
-        style: `background-color: ${this.$page.post.project_bg_color ? this.$page.post.project_bg_color : 'var(--color-base)'}; color: ${this.$page.post.project_fg_color ? this.$page.post.project_fg_color : 'var(--color-contrast)'}`
+        style: `color: ${this.$page.post.project_fg_color ? this.$page.post.project_fg_color : 'var(--color-contrast)'}`
       }
     }
   },
    beforeMount(){
              console.log(this.$page.post.section[0].template.video);
+             console.log('Video'+ this.$page.post.project_fg_color);
 
    }
+
 }
+           
 
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap');
 .project-header {
   padding: 20vh 0 4rem 0;
 }
@@ -140,5 +155,44 @@ export default  {
 }
 .category:last-of-type:after {
   content: '';
+}
+.section{
+  height: 100vh !important;
+}
+.fp-tableCell{
+  height: 100vh !important;
+}
+.start-video{
+position: absolute;
+filter: blur(5px);
+top: 0;
+width: 100vw;
+height: 100vh;
+transform: scale(1.05);
+/* z-index: -2; */
+}
+
+.recuadre-info-projecte{
+width: 40vw;
+  background-color: var(--bg-color);
+  border-radius: 30px;
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  padding: 20px 50px;
+}
+
+.recuadre-info-projecte h1{
+  color: white;
+  font-family: 'Cantata One';
+  font-size: 100pt;
+  margin: 20px;
+}
+.recuadre-info-projecte p{
+  color: white;
+  font-family: 'Lato';
+  font-size: 10pt;
+  padding: 0px;
+  margin: 20px;
 }
 </style>
