@@ -74,4 +74,5 @@ fields:
     min: 
     max: 
 pages:
+- projects/asteria.md
 - projects/eter.md
