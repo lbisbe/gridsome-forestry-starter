@@ -232,6 +232,21 @@ section:
   text-area: ''
   cart-lateral: []
   descripcion: ''
+- template: seccio-projecte
+  localizacio: process
+  title: Making off shooting
+  id: makingoff_shooting_Asteria
+  visualization: video
+  link: false
+  link-web: ''
+  galeria: []
+  single-img: ''
+  slider: []
+  video: ''
+  text-area: ''
+  carta: []
+  cart-lateral: []
+  descripcion: ''
 problema: ''
 
 ---
