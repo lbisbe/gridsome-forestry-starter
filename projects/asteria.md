@@ -291,8 +291,19 @@ section:
     link_pdf: ''
     img_cart: "/uploads/4-2.jpg"
   - template: cart
-    titulo: ''
-    descripcion: ''
+    titulo: The postproduction
+    descripcion: "Photography For the photography, we did, first of all, a color correction
+      using Lightroom classic. After that, we bring the picture to photoshop to arrange
+      all the imperfections or remove things (for example bracelets, or the earrings
+      of the little girls).\n\nVideo For the videos, first of all, we did the first
+      edit with the music (final cut). After that, we went thru color correction (DaVinci)
+      and finally thru a few VX with after effects to create that substantial infinite
+      white space. \n\n360º VideoAfter many tests with many programs, most without
+      results, we managed to find the process to edit in 360º format: \n\n1-Grade
+      the good clip without cuts with the Da Vinci Resolve program.\n\n2- With After
+      Effects and we applied a mask to the environment to create the white space and
+      the image of the doctor was reduced to 30% \n\n3- Edit the audio and the image
+      with Adobe Premiere to get the 360º format."
     id: ''
     link_pdf: ''
     img_cart: ''
