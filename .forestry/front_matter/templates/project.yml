@@ -73,6 +73,15 @@ fields:
   config:
     min: 
     max: 
+- name: problema
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: problema
 pages:
 - projects/asteria.md
 - projects/cinema-palette.md
