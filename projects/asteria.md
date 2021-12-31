@@ -30,6 +30,7 @@ section:
   text-area: ''
   carta: []
   cart-lateral: []
+  descripcion: ''
 - template: seccio-projecte
   localizacio: final-resoult
   title: The installation
@@ -44,6 +45,7 @@ section:
   text-area: ''
   carta: []
   cart-lateral: []
+  descripcion: ''
 - template: seccio-projecte
   localizacio: final-resoult
   title: Posters
@@ -68,6 +70,7 @@ section:
   text-area: ''
   carta: []
   cart-lateral: []
+  descripcion: ''
 - template: seccio-projecte
   localizacio: final-resoult
   title: Catalog
@@ -82,6 +85,7 @@ section:
   text-area: ''
   carta: []
   cart-lateral: []
+  descripcion: ''
 - template: seccio-projecte
   localizacio: process
   title: Research + direction
@@ -154,6 +158,7 @@ section:
       references."
     id: ''
     link_pdf: ''
+  descripcion: ''
 - template: seccio-projecte
   localizacio: process
   title: Making off interact
@@ -168,6 +173,10 @@ section:
   text-area: ''
   carta: []
   cart-lateral: []
+  descripcion: As director of the multimedia department, I was in charge of the entire
+    department practically alone. In the installation, I wanted to provide immersion
+    to the user, and that is why everything that surrounds the viewer stimulates and
+    brings them into the reality that we propose.
 problema: ''
 
 ---
