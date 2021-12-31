@@ -247,6 +247,52 @@ section:
   carta: []
   cart-lateral: []
   descripcion: ''
+- template: seccio-projecte
+  localizacio: process
+  title: Audiovisual
+  id: audiovisual_asteria
+  visualization: recerca
+  carta:
+  - template: cart
+    titulo: The shooting
+    descripcion: We made a total of 5 spots, a 360º video, and we photographed 24
+      models. That with four days of filming. To organize the shooting, we started
+      by making clear storyboards of how each sequence had to develop. We continue
+      with the lighting and the camera. First, we made the lighting schemes and then
+      we organize a day of lights and camera tests, which we take advantage of by
+      doing the wardrobe and makeup tests. We repeated the process for the 360º video
+      since it was made in a different location. For the days of filming, we prepared
+      some shooting orders, in this way we could keep control of the timing that we
+      had for each scene, apart from the fact that it allowed us to call the models
+      by hours and avoiding them to wait. Basically, during the filming, my tasks
+      were to direct, make sure that each scene and/or model's results were the desired
+      ones, and make modifications if necessary, giving instructions to the camera
+      operators or the lighting team. In addition, I directed the actors so that their
+      expressions and movements would adjust to our ideas.
+    img_cart: "/uploads/2-3.jpg"
+    id: ''
+    link_pdf: ''
+  - template: cart
+    titulo: ''
+    descripcion: ''
+    id: ''
+    link_pdf: ''
+    img_cart: ''
+  - template: cart
+    titulo: ''
+    descripcion: ''
+    id: ''
+    link_pdf: ''
+    img_cart: ''
+  link: false
+  link-web: ''
+  galeria: []
+  single-img: ''
+  slider: []
+  video: ''
+  text-area: ''
+  cart-lateral: []
+  descripcion: ''
 problema: ''
 
 ---
