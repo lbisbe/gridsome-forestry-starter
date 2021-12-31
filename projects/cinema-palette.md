@@ -28,9 +28,9 @@ weblink:
 subseccio_projecte: []
 section:
 - template: seccio-projecte
-  localizacio: final-resoult
-  title: ''
-  id: ''
+  localizacio: process
+  title: Research
+  id: research
   visualization: ''
   link: false
   link-web: ''
