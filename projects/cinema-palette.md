@@ -8,7 +8,7 @@ description: "The project is conceived to improve this situation, giving tools t
   color in the audiovisual content through movies. The app uses mini-games that lead
   to the analysis of several films, where the user interacts to discover the meaning
   of color actively."
-main_initial_video: ''
+main_initial_video: https://player.vimeo.com/video/661401010?h=f99bb762fd&amp;muted=1&amp;quality=720p&amp;autoplay=1&amp;loop=1&amp;api=1&amp;background=1
 categories:
 - UX
 - UI
