@@ -273,11 +273,23 @@ section:
     id: ''
     link_pdf: ''
   - template: cart
-    titulo: ''
-    descripcion: ''
+    titulo: The models
+    descripcion: We needed a lot of models of different ages. We work with an age
+      range between 0 and 45 years. To select the models, first of all, we did a spreadsheet
+      where we put the people divided by ages. We search for everyone that we knew
+      that could fit for what we were looking for, even if we had never had any contact
+      with that person. After that, we made the first cut, and we contact them. We
+      offered them diets and transportation. To the once who seid yes, we arrange
+      a shooting timing, we gave them some more information about the project, and
+      send them a contract for the value of 0€ and the image rights consent document
+      to sign, or their parents in case of the minors. For the doctor, that it was
+      the only character who had to talk, we contact a professional actress. We send
+      the offer to many of them, though we didn't know what to expect as we asked
+      them to do it for free. Finally, one of them said yes, and the experience of
+      being able to direct her was very enriching
     id: ''
     link_pdf: ''
-    img_cart: ''
+    img_cart: "/uploads/4-2.jpg"
   - template: cart
     titulo: ''
     descripcion: ''
