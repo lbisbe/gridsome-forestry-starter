@@ -136,8 +136,22 @@ section:
     id: ''
     link_pdf: ''
   - template: cart
-    titulo: ''
-    descripcion: ''
+    titulo: Documentation research
+    descripcion: "I was in charge of all the documentation from a scientific point
+      of view. We wanted to be as accurate as possible to reality, so I researched
+      genetic engineering. I am passionate about the world of biology, especially
+      genetics, and from the second year of my degree in my free time, I attend classes
+      in the biotechnology degree as a listener. That is why I was delighted to do
+      all the documentation. I asked for all the notes on any subject related to genetics.
+      Plus, I went to the library on weekends to investigate. Once all the research
+      was done, I organized some basic genetics classes for the whole group, so we
+      all knew what we are working with. \n\nThis was very useful during the presentation
+      and as long as the installation was operative. Since practically all the questions
+      we received were technical about genetics, when someone asked something more
+      complicated, the other team members came looking for me to give the pertinent
+      explanations. And it was all a success since we were able to solve all the doubts!
+      \n\nAdditionally, all the departments have performed deep research focuses on
+      references."
     id: ''
     link_pdf: ''
 problema: ''
