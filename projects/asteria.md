@@ -154,6 +154,20 @@ section:
       references."
     id: ''
     link_pdf: ''
+- template: seccio-projecte
+  localizacio: process
+  title: Making off interact
+  id: makingoff_interactiu_asteria
+  visualization: video
+  link: false
+  link-web: ''
+  galeria: []
+  single-img: ''
+  slider: []
+  video: ''
+  text-area: ''
+  carta: []
+  cart-lateral: []
 problema: ''
 
 ---
