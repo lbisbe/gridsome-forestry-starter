@@ -100,3 +100,14 @@ fields:
   showOnly:
     field: visualization
     value: recerca
+- name: carta
+  type: blocks
+  label: carta
+  template_types:
+  - cart
+  config:
+    min: 
+    max: 
+  showOnly:
+    field: visualization
+    value: recerca
