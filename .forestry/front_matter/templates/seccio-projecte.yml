@@ -30,7 +30,7 @@ fields:
   description: a quina part del projecte anira
 - name: visualization
   type: select
-  default: 'no'
+  default: ''
   config:
     required: false
     options:
@@ -38,6 +38,8 @@ fields:
     - slider
     - gallery
     - video
+    - text
+    - cart
     source:
       type: simple
       section: 
@@ -86,3 +88,55 @@ fields:
   showOnly:
     field: visualization
     value: video
+- name: text-area
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: text-area
+  showOnly:
+    field: visualization
+    value: text
+- name: carta-patita
+  type: field_group
+  config: {}
+  fields:
+  - name: titulo-carta
+    type: text
+    config:
+      required: false
+    label: titulo-carta
+  - name: descripcion_petita_carta
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: descripción Petita carta
+  - name: index_recrea
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: index recrea
+  - name: descripcion_larga_carta
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: descripción larga carta
+  label: carta-patita
+  showOnly:
+    field: visualization
+    value: cart
