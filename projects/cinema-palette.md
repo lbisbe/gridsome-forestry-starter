@@ -76,6 +76,19 @@ section:
   video: ''
   text-area: ''
   carta: []
+- template: seccio-projecte
+  localizacio: final-resoult
+  title: ''
+  id: ''
+  visualization: ''
+  link: false
+  link-web: ''
+  galeria: []
+  single-img: ''
+  slider: []
+  video: ''
+  text-area: ''
+  carta: []
 problema: 'The new generations are continuously bombed by audiovisual content, but
   they did not receive a formation to help them understand the audiovisual narrative.
   So, they keep being passive spectators and, therefore, manipulable. '
