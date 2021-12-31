@@ -31,13 +31,31 @@ section:
   localizacio: process
   title: Research
   id: research
-  visualization: ''
+  visualization: recerca
   link: false
   link-web: ''
   galeria: []
   single-img: ''
   slider: []
   video: ''
+  text-area: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+    eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+    At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+    no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+    amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+    et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo
+    duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+    Lorem ipsum dolor sit amet.
+
+'
+  carta:
+  - template: cart
+    titulo: Color
+    descripcion: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+      nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+      voluptua. '
+    id: color
+    link_pdf: ''
 problema: 'The new generations are continuously bombed by audiovisual content, but
   they did not receive a formation to help them understand the audiovisual narrative.
   So, they keep being passive spectators and, therefore, manipulable. '
