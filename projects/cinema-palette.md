@@ -56,6 +56,13 @@ section:
       voluptua. '
     id: color
     link_pdf: ''
+  - template: cart
+    titulo: Playfulness
+    descripcion: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+      nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+      voluptua.
+    id: playfulness
+    link_pdf: ''
 problema: 'The new generations are continuously bombed by audiovisual content, but
   they did not receive a formation to help them understand the audiovisual narrative.
   So, they keep being passive spectators and, therefore, manipulable. '
