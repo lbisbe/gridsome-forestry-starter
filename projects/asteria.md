@@ -29,6 +29,7 @@ section:
   video: ''
   text-area: ''
   carta: []
+  cart-lateral: []
 - template: seccio-projecte
   localizacio: final-resoult
   title: The installation
@@ -42,6 +43,7 @@ section:
   video: ''
   text-area: ''
   carta: []
+  cart-lateral: []
 - template: seccio-projecte
   localizacio: final-resoult
   title: Posters
@@ -65,6 +67,7 @@ section:
   video: ''
   text-area: ''
   carta: []
+  cart-lateral: []
 - template: seccio-projecte
   localizacio: final-resoult
   title: Catalog
@@ -78,11 +81,12 @@ section:
   video: ''
   text-area: ''
   carta: []
+  cart-lateral: []
 - template: seccio-projecte
   localizacio: process
   title: Research + direction
   id: research_asteria
-  visualization: recerca
+  visualization: cart
   carta:
   - template: cart
     titulo: Research
@@ -120,6 +124,22 @@ section:
   slider: []
   video: ''
   text-area: ''
+  cart-lateral:
+  - template: cart
+    titulo: Directing a project
+    descripcion: "Like any great project, it needs someone to lead it, and in this
+      case, it was me. Between my tasks as director were:\n\n- Guide and Cohesive
+      the different departments\n\n- Solve the various problems that arise \n\n- Supporting
+      ideas to improve workflow, or solving team obstacles\n\n- Homogenize the project
+      at the platform level to make them interact in the most organic way possible\n\n-
+      Act as a spokesperson for the group"
+    id: ''
+    link_pdf: ''
+  - template: cart
+    titulo: ''
+    descripcion: ''
+    id: ''
+    link_pdf: ''
 problema: ''
 
 ---
