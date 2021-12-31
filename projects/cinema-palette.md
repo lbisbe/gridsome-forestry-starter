@@ -63,6 +63,19 @@ section:
       voluptua.
     id: playfulness
     link_pdf: ''
+- template: seccio-projecte
+  localizacio: process
+  title: SCHEDULE
+  id: schedule_color
+  visualization: single-image
+  single-img: "/uploads/schedule.png"
+  link: false
+  link-web: ''
+  galeria: []
+  slider: []
+  video: ''
+  text-area: ''
+  carta: []
 problema: 'The new generations are continuously bombed by audiovisual content, but
   they did not receive a formation to help them understand the audiovisual narrative.
   So, they keep being passive spectators and, therefore, manipulable. '
