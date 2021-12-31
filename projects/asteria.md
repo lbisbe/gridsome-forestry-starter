@@ -15,6 +15,20 @@ project_bg_color: "#7EBCD3"
 project_fg_color: "#7EBCD3"
 weblink: []
 subseccio_projecte: []
-section: []
+section:
+- template: seccio-projecte
+  localizacio: final-resoult
+  title: teasers
+  visualization: video
+  id: teaser_asteria
+  link: false
+  link-web: ''
+  galeria: []
+  single-img: ''
+  slider: []
+  video: ''
+  text-area: ''
+  carta: []
+problema: ''
 
 ---
