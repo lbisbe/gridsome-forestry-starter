@@ -29,6 +29,19 @@ section:
   video: ''
   text-area: ''
   carta: []
+- template: seccio-projecte
+  localizacio: final-resoult
+  title: The installation
+  id: installatin_asteria
+  visualization: video
+  link: false
+  link-web: ''
+  galeria: []
+  single-img: ''
+  slider: []
+  video: ''
+  text-area: ''
+  carta: []
 problema: ''
 
 ---
