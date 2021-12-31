@@ -1,4 +1,28 @@
 ---
 label: Cart
 hide_body: true
-fields: []
+fields:
+- name: titulo
+  type: text
+  config:
+    required: false
+  label: titulo
+- name: descripcion
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: descripción
+- name: id
+  type: text
+  config:
+    required: false
+  label: id
+- name: link_pdf
+  type: text
+  config:
+    required: false
+  label: link pdf
