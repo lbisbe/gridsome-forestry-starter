@@ -215,11 +215,14 @@ section:
     link_pdf: ''
     img_cart: "/uploads/so.jpg"
   - template: cart
-    titulo: ''
-    descripcion: ''
+    titulo: Medicines
+    descripcion: |-
+      There is a table full of test tubes of different colors where the user can choose one and put it on a central support. Next, an image of a disease is shown on the computer, explaining how the genetic modification could eradicate it.
+
+      These work with the same logic as the totems. A web with the images and a server programmed with node.js. The communication between the devices is done through UDP and Soket.io. To code the NFC reader in the Arduino, we have used the MFRC522 library. That way, every time the Arduino reads a tag, it will launch the correponding image on the computer.
     id: ''
     link_pdf: ''
-    img_cart: ''
+    img_cart: "/uploads/medicaments.jpg"
   link: false
   link-web: ''
   galeria: []
