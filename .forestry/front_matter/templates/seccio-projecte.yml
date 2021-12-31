@@ -40,6 +40,7 @@ fields:
     - video
     - text
     - recerca
+    - cart
     source:
       type: simple
       section: 
@@ -111,3 +112,14 @@ fields:
   showOnly:
     field: visualization
     value: recerca
+- name: cart-lateral
+  type: blocks
+  label: cart-lateral
+  template_types:
+  - cart
+  config:
+    min: 
+    max: 
+  showOnly:
+    field: visualization
+    value: cart
