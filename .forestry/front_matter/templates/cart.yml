@@ -26,3 +26,8 @@ fields:
   config:
     required: false
   label: link pdf
+- name: img_cart
+  type: file
+  config:
+    maxSize: 64
+  label: img cart
