@@ -206,11 +206,14 @@ section:
     id: ''
     link_pdf: ''
   - template: cart
-    titulo: ''
-    descripcion: ''
+    titulo: Podcast + Radio
+    descripcion: |-
+      The last interaction contains two variables in which we differentiate a radio and an iPad. Through interactive painting, you can listen to both a newsletter of the future we propose(radio) and a podcast where genetic modification is discussed(iPad).
+
+      We made an illustration with interactive paint (Bare conductive), which we protected with plastic. We use Bare conductive's libraries to program it.
     id: ''
     link_pdf: ''
-    img_cart: ''
+    img_cart: "/uploads/so.jpg"
   - template: cart
     titulo: ''
     descripcion: ''
