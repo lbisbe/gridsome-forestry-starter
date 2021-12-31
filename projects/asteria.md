@@ -111,6 +111,7 @@ section:
       references."
     id: ''
     link_pdf: ''
+    img_cart: ''
   - template: cart
     titulo: Directing a project
     descripcion: "Like any great project, it needs someone to lead it, and in this
@@ -121,6 +122,7 @@ section:
       Act as a spokesperson for the group"
     id: ''
     link_pdf: ''
+    img_cart: ''
   link: false
   link-web: ''
   galeria: []
@@ -139,6 +141,7 @@ section:
       Act as a spokesperson for the group"
     id: ''
     link_pdf: ''
+    img_cart: ''
   - template: cart
     titulo: Documentation research
     descripcion: "I was in charge of all the documentation from a scientific point
@@ -158,6 +161,7 @@ section:
       references."
     id: ''
     link_pdf: ''
+    img_cart: ''
   descripcion: ''
 - template: seccio-projecte
   localizacio: process
@@ -177,6 +181,51 @@ section:
     department practically alone. In the installation, I wanted to provide immersion
     to the user, and that is why everything that surrounds the viewer stimulates and
     brings them into the reality that we propose.
+- template: seccio-projecte
+  localizacio: process
+  title: Interactions
+  id: interaction_asteria
+  visualization: recerca
+  carta:
+  - template: cart
+    titulo: Totem
+    descripcion: |-
+      There are five totems in total; in them, the user must answer the doctor's questionnaire thru a video. The answers are given by putting the hand in the top of one of the three illuminated zones
+
+      To carry out the interactions of the totems, we have created a website. This website is connected through Socket.io to a server programmed with node.js, which is connected to Arduino by UDP. When the user finishes, uploads all the responses to the mongo database and restarts the program. To be able to perform all these interactions at the same time, we have used promises within asynchronous functions
+    id: totem_asteria
+    img_cart: "/uploads/totems.jpg"
+    link_pdf: ''
+  - template: cart
+    img_cart: "/uploads/dades.jpg"
+    titulo: Data representation
+    descripcion: |
+      There are ten tubes (one for each question). These are filled with liquids of different densities. Like that, we could represent the % of questionnaire answers in real-time. We use peristaltic pumps, each of them connected to an Arduino.
+
+      The Arduinos were connected to the same mongo base as the totems. Every few seconds, they check for a new answer pack. If there were, the pumps corresponding to those responses would activate, filling the tubes with liquid.
+    id: ''
+    link_pdf: ''
+  - template: cart
+    titulo: ''
+    descripcion: ''
+    id: ''
+    link_pdf: ''
+    img_cart: ''
+  - template: cart
+    titulo: ''
+    descripcion: ''
+    id: ''
+    link_pdf: ''
+    img_cart: ''
+  link: false
+  link-web: ''
+  galeria: []
+  single-img: ''
+  slider: []
+  video: ''
+  text-area: ''
+  cart-lateral: []
+  descripcion: ''
 problema: ''
 
 ---
