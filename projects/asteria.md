@@ -42,6 +42,42 @@ section:
   video: ''
   text-area: ''
   carta: []
+- template: seccio-projecte
+  localizacio: final-resoult
+  title: Posters
+  id: posters_asteria
+  visualization: gallery
+  galeria:
+  - "/uploads/1-1.jpg"
+  - "/uploads/6.jpg"
+  - "/uploads/7.jpg"
+  - "/uploads/2-1.jpg"
+  - "/uploads/4.jpg"
+  - "/uploads/3.jpg"
+  - "/uploads/9.jpg"
+  - "/uploads/10.png"
+  - "/uploads/5.jpg"
+  - "/uploads/8.jpg"
+  link: false
+  link-web: ''
+  single-img: ''
+  slider: []
+  video: ''
+  text-area: ''
+  carta: []
+- template: seccio-projecte
+  localizacio: final-resoult
+  title: Catalog
+  id: catalag_asteria
+  visualization: ''
+  link: false
+  link-web: ''
+  galeria: []
+  single-img: ''
+  slider: []
+  video: ''
+  text-area: ''
+  carta: []
 problema: ''
 
 ---
